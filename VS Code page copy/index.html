@@ -1,1 +1,209 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visual Studio Code</title>
+    <link rel="stylesheet" href="./style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+   </script>
+   
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">Visual Studio Code</div>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-item">Docs</li>
+          <li class="menu-item">Updates</li>
+          <li class="menu-item">Blog</li>
+          <li class="menu-item">API</li>
+          <li class="menu-item">Extensions</li>
+          <li class="menu-item">FAQ</li>
+        </ul>
+      </nav>  
+      <div class="download">
+        <img class="download-icon" src="./assets/download.svg" width="16px" height="16px" alt="Download VS Code">
+        Download
+      </div>
+    </div>   
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item over">Overview</li>
+        <li class="nav-item">SETUP</li>
+        <li class="nav-item">GET STARTED</li>
+        <li class="nav-item">USER GUIDE</li>
+        <li class="nav-item">LANGUAGES</li>
+        <li class="nav-item">JAVASCRIPT</li>
+        <li class="nav-item">PYTHON</li>
+        <li class="nav-item">AZUR</li>
+        <li class="nav-item">REMOTE</li>
+      </ul>    
+    </nav>
+    <div class="body">
+      <section>
+        <h1>Getting Started</h1>
+        <p>Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). Begin your journey with VS Code with these introductory videos.</p>
+      </section>
+      <section class="action">
+        <h3>Visual Studio Code in Action</h3>
+        <div class="carousel">
+          <div class="carousel-item active">
+            <img class="carousel-pic" src="./assets/carousel1.png">
+            <h4>Intelligent Code Completion</h4>
+            <p class="carousel-paragraph">Code smarter with <span class="blue">IntelliSense</span> - completions for variables, methods, and imported modules.</p>
+          </div> 
+          <div class="carousel-item">
+            <img class="carousel-pic" src="./assets/1,2.png">
+            <h4>Streamlined Debugging</h4>
+            <p class="carousel-paragraph">Print debugging is a thing of the past. Debug in VS Code with your terminal tools.</p>
+          </div> 
+          <div class="carousel-item">
+            <img class="carousel-pic" src="./assets/2.png">
+            <h4>Fast, Powerful Editing</h4>
+            <p class="carousel-paragraph">Linting, multi-cursor editing, parameter hints, and other powerful editing features.</p>
+            </div> 
+          <div class="carousel-item">
+            <img class="carousel-pic" src="./assets/3.png">
+            <h4>Code Navigation and Refactoring</h4>
+            <p class="carousel-paragraph">Browse your source code quickly using peek and navigate to definition.</p>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-pic" src="./assets/4.png">
+            <h4>In-Product Source Control</h4>
+            <p class="carousel-paragraph">Speed up your release cycle with SCM support inside your editor, including rich Git integration.</p>
+            </div>   
+          <ol class="carousel-indicators">
+            <li class="wow active" value="1"></li>
+            <li class="wow" value="2"></li>
+            <li class="wow" value="3"></li>
+            <li class="wow" value="4"></li>
+            <li class="wow" value="5"></li>
+          </ol>
+          </div>
+          <h3>Top Extensions</h3>
+          <p>Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their
+            secret sauce to improve your workflow.</p>
+          <div class="icon-cell">
+            <img class="icon" src="https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/python/2019.6.24221/1562713091110/Microsoft.VisualStudio.Services.Icons.Default" alt="Python" role="presentation">
+            <div class="cell-title"><h5>Python</h5></div>
+            <div>
+              <ul class="second-row">
+                <li class="second-row-item python">ms-python</li>
+                <li class="second-row-item black"> <img class="download-icon" src="./assets/download.svg" width="16px" height="16px" alt="Download VS Code"></li> 
+                <li class="second-row-item number">10.5M</li>
+              </ul>
+            </div>
+          </div>  
+          <div class="icon-cell">
+            <img class="icon" src="https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/cpptools/0.24.1/1563824336931/Microsoft.VisualStudio.Services.Icons.Default" alt="C/C++" role="presentation">
+            <div class="cell-title"><h5>C/C++</h5></div> 
+            <div>
+              <ul class="second-row">
+                <li class="second-row-item python">ms-vscode</li>
+                <li class="second-row-item black"> <img class="download-icon" src="./assets/download.svg" width="16px" height="16px" alt="Download VS Code"></li> 
+                <li class="second-row-item number">6.5M</li>
+              </ul>
+            </div>
+          </div>
+          <div class="icon-cell">
+            <img class="icon" src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/1.9.0/1557865213792/Microsoft.VisualStudio.Services.Icons.Default" alt="ESLint" role="presentation">
+            <div class="cell-title"><h5>ES Lint</h5></div> 
+            <div>
+              <ul class="second-row">
+                <li class="second-row-item python">dbaeumer</li>
+                <li class="second-row-item black"> <img class="download-icon" src="./assets/download.svg" width="16px" height="16px" alt="Download VS Code"></li> 
+                <li class="second-row-item number">5.7M</li>
+              </ul>
+              </div>
+          </div>
+          <div class="icon-cell">
+            <img class="icon" src="https://msjsdiag.gallerycdn.vsassets.io/extensions/msjsdiag/debugger-for-chrome/4.11.6/1561761293929/Microsoft.VisualStudio.Services.Icons.Default" alt="Debugger for Chrome" role="presentation">
+            <div class="cell-title"><h5>Debugger for Chrome</h5></div> 
+            <div>
+              <ul class="second-row">
+                <li class="second-row-item python">msjsdiag</li>
+                <li class="second-row-item black"> <img class="download-icon" src="./assets/download.svg" width="16px" height="16px" alt="Download VS Code"></li> 
+                <li class="second-row-item number">3.7M</li>
+              </ul>
+            </div>
+          </div>
+          <div class="icon-cell">
+            <img class="icon" src="https://vscode-icons-team.gallerycdn.vsassets.io/extensions/vscode-icons-team/vscode-icons/8.8.0/1561417545327/Microsoft.VisualStudio.Services.Icons.Default" alt="vscode-icons" role="presentation">
+            <div class="cell-title"><h5>vscode-icons</h5></div> 
+          </div>
+          <div class="icon-cell">
+            <img class="icon" src="https://redhat.gallerycdn.vsassets.io/extensions/redhat/java/0.47.0/1563468342814/Microsoft.VisualStudio.Services.Icons.Default" alt="Language Support for..." role="presentation">
+            <div class="cell-title"><h5>Language support for Java ™ for Visual Studio Code</h5></div>
+          </div>
+          <div class="icon-cell">
+            <img class="icon" src="https://eamodio.gallerycdn.vsassets.io/extensions/eamodio/gitlens/9.9.1/1563859696182/Microsoft.VisualStudio.Services.Icons.Default" alt="GitLens — Git superc..." role="presentation">
+            <div class="cell-title"><h5>GitLens — Git super</h5></div>
+          </div>
+          <div class="icon-cell">
+            <img class="icon" src="https://octref.gallerycdn.vsassets.io/extensions/octref/vetur/0.21.1/1561763428564/Microsoft.VisualStudio.Services.Icons.Default" alt="Vetur" role="presentation">
+            <div class="cell-title"><h5>Vetur</h5></div>
+          </div>  
+      </section>
+      <div class="buttons">
+        <h6>Was this documentation helpful?</h6>
+        <button>Yes</button>
+        <button>No</button>
+      </div>   
+    </div>
+    <div class="subnav">
+      <h2>Getting started</h2>
+      <ul class="start">
+        <li class="start-item">VS Code in Action</li>
+        <li class="start-item">Top Extensions</li>
+        <li class="start-item">First Steps</li>
+        <li class="start-item">Keyboard Shortcuts</li>
+        <li class="start-item">Downloads</li>
+        <li class="start-item">Privacy</li>
+      </ul>
+      <div class="connect">
+        <ul class="connect-menu">
+          <li class="connect-item">
+            <img class="twitter" src="./assets/twitter.svg" width="16px" height="16px">Tweet this link</li>
+          <li class="connect-item">
+            <img class="twitter" src="./assets/rss.svg" width="16px" height="16px">Subscribe</li>
+          <li class="connect-item">
+            <img class="twitter" src="./assets/question.svg" width="16px" height="16px">Ask questions</li>
+          <li class="connect-item">
+            <img class="twitter" src="./assets/twitter.svg" width="16px" height="16px">Follow @code</li>
+          <li class="connect-item">
+            <img class="twitter" src="./assets/feature.svg" width="16px" height="16px">Request features</li>
+          <li class="connect-item">
+            <img class="twitter" src="./assets/issue.svg" width="16px" height="16px">Report issues</li>
+          <li class="connect-item">
+            <img class="twitter" src="./assets/youtube.svg" width="16px" height="16px">Watch videos</li>
+        </ul>
+      </div>      
+    </div>
+  <footer class="info">
+    <div class="row">
+      <ul class="left-links">
+        <li class="message">Hello from Seattle.</li>
+        <li class="message link"><a href="https://go.microsoft.com/fwlink/?LinkID=533687">Follow @code</a></li>
+        <li class="message">
+          <div> 
+            <iframe src="./assets/github-button.html?user=Microsoft&amp;repo=vscode&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="130px" height="20px" title="GitHub follow button" aria-label="GitHub follow button"></iframe>
+          </div>  
+        </li> 
+      </ul>
+    </div>
+    <div class="row2">
+      <ul class="right-links">
+        <li class="message right">Support</li>
+        <li class="message right">Privacy</li>
+        <li class="message right">Terms of Use</li>
+        <li class="message right">License</li>
+        <li class="Microsoft"><img src="./assets/microsoft-logo.png" height="45px"></li>
+        <li class="last">© 2019 Microsoft</li>
+        </ul>
+    </div>
+  </footer>  
+  <script src="./index.js"></script> 
+</body>
+</html>
